@@ -1,9 +1,7 @@
 
 跨服竞技场
 
-***** 1.设置设置跨服竞技场配置 http://192.168.1.152:9529/updateArenaWarConfig?（发到网关服）
-***** 2,同步跨服竞技场配置 http://192.168.1.152:9529/syncArenaWarConfig?（发到网关服）
-***** 3,获取跨服竞技场配置 http://192.168.1.152:9529/getArenaWarConfig?（发到网关服）
+
 local tab = {
     actInfo  = {
         openTime = os.time({year=2022, month = 1, day=14,hour=10, min=45, sec=0}),   -- 持续时间 关闭时间
